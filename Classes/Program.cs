@@ -13,7 +13,7 @@ namespace Classes
             x = new Triangulo();
             y = new Triangulo();
 
-            Console.WriteLine("Entre com as medidas do triangulo X:");
+            Console.WriteLine("Entre com as medidas do triangulo X: ");
             x.A = Double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             x.B = Double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             x.C = Double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
